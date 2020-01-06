@@ -1,0 +1,5 @@
+baseURL: = "https://destintl.com/"
+languageCode: = "en-us"
+title: = "My New Web Site"
+theme: = "hugo-coder"
+publishDir: = "public"
