@@ -1,0 +1,48 @@
+baseurl: 'https://destintl.com/'
+title: destintl
+theme: hugo-coder
+languagecode: en
+defaultcontentlanguage: en
+paginate: 20
+canonifyurls: true
+pygmentsstyle: bw
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+disqusShortname: yourdiscussshortname
+params:
+  author: Gus Zxvf
+  info: Full Stack DevOps and Magician
+  description: Gus's test website
+  keywords: blog
+  avatarurl: images/avatar_gus.jpg
+  favicon_32: /img/favicon-32x32.png
+  favicon_16: /img/favicon-16x16.png
+  footercontent: Enter a text here.
+  hidecredits: false
+  hidecopyright: false
+  rtl: false
+  math: true
+  custom_css:
+    - css/custom.css
+  social:
+    - name: Github
+      icon: fab fa-github fa-2x
+      weight: 1
+      url: 'https://github.com/g0053/'
+    - name: Gitlab
+      icon: fab fa-gitlab fa-2x
+      weight: 2
+      url: 'https://gitlab.com/g0053/'
+    - name: Twitter
+      icon: fab fa-twitter fa-2x
+      weight: 3
+      url: 'https://twitter.com/null/'
+menu:
+  main:
+    - name: Blog
+      weight: 1
+      url: /posts/
+    - name: About
+      weight: 2
+      url: /about/
+
